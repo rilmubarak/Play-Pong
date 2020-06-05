@@ -8,6 +8,33 @@
     bottom: 0;
 }
 
+#win-notif{
+    position: relative;
+    text-align: center;
+}
+
+#info{
+    position: static;
+}
+
+.p1{
+    position: relative;
+    top: 20px;
+    right: 50px;
+    left: 230px;
+    bottom: 80;
+
+}
+
+.p1{
+    position: relative;
+    top: 20px;
+    right: 50px;
+    left: 230px;
+    bottom: 80;
+
+}
+
 body{
     background-color: darkgrey;
 }
