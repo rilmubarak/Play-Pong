@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game-board">`
-        <canvas id="canvas" width="600" height="400"></canvas>
-        <!-- <div class="score-board">Player 1 <span id="scoreP1">0</span> - <span id="scoreP2">0</span>Player 2</div>
+    <div class="game-board">
+        <canvas id="canvas" width="600" height="400">
+            <!-- Teks ini muncul apabila browser tidak mendukung HTML5 canvas -->
+            <p>Browser Anda tidak mendukung HTML5 canvas :(</p>
+        </canvas>
     </div>
+
     <div id="win-notif"></div>
-    <div id="start">Press space to start</div>
+
     <div id="info">
-        <h3>Player 1</h3>
-        <p>Press W to go Up</p>
-        <p>Press S to go Up</p>
-        <h3>Player 2</h3>
-        <p>Press ↑ to go Up</p>
-        <p>Press ↓ to go Up</p>
-        <hr>
-        <p id="info">Press Esc to start a game!</p>
-    </div> -->
+        <h3 id="info">Notes:</h3>
+        <p>Terdapat 2 player dalam game ini. 
+            <br> Speed game perlahan akan bertambah.
+            <br> Player yang meraih 5 poin akan menang.
+        </p>
+    </div>
     <script src="script.js"></script>
     
 </body>
